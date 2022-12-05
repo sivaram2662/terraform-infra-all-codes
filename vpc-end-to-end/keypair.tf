@@ -1,0 +1,5 @@
+resource "aws_key_pair" "demo" {
+  key_name   = "demo"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDv05NRii2t49zeXD3Q3b9eXdpKQ1WNhKlipgBuceOZ+HX901dTID1+Sz/JTSmMKUKnOF4jDwGildwuuMNQOQkc9L/z/IZThmCAGGMwZ2YSyZhTS7zR2k/9/dmZZtwQh9YR0wjrXxmCp/bJMj/qrGisYp7x3n260JMtUrHouAZm91gvOj4Z+fq5ONEhevOpcVPFQqxhK6YO7DIgecwSX36vn71zNnvmMuWCrN0cDivzxf2e7fskMWygVEfobxhoNUkbnVSOVJXYJ2sYuwpCJMaI10ZF7jcq2KYtf0zgpBG+TELg6f4bYEd33dsxqsJlEcNEviM7/ubtkKnx1RGXguaRzZw6lnH3GIuKTjbIBtM7O7zkZ63sizABjzy3saS09S8w6xECyQlXqmYGecxwPdkLie1pM84UV5iCSEN8EZwZdDxEJn3mQWPaqzjeS0SUeVEZJGTSIzl0gqUY+QcmApANLtMyHLFEZuDJ6SffufDDo/GxvF3mVQei43Cq3FdydCM= duggi@pavansiva"
+  #   public_key = file(id_rsa.pub)
+}
